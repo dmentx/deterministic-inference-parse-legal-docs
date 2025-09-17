@@ -1,0 +1,11 @@
+[project]
+name = "deterministic-inference-parse-legal-docs"
+version = "0.1.0"
+description = "Legal document parsing with deterministic inference"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "triton",
+    "tqdm>=4.67.1",
+]
